@@ -13,7 +13,7 @@ export const HeaderText = styled.h1`
     margin: 0;
     padding: 0;
     color: #FFF;
-    padding-top: 30px;
+    padding-top: 12px;
 `;
 
 export const Body = styled.div`
