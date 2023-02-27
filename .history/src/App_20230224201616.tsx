@@ -7,8 +7,6 @@ import { getCurrentMonth, filterListByMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
 import { InfoArea } from './components/InfoArea';
 import { InputArea } from './components/inputArea';
-import github from './assets/images/github.png';
-import linkedin from './assets/images/linkedin.png';
 // import logo from './assets/images/logo-1.png';
 
 const App = () => {
@@ -70,26 +68,6 @@ const App = () => {
        <TableArea list={filteredList} />
 
       </C.Body>
-      <C.Footer>
-
-      <a href='https://github.com/englucianasena' target='blank'>
-      <img src={github} 
-      className="App-logo" 
-      alt="logo" 
-      height="50"
-      width="50"
-      />
-      </a>
-      <a href='https://www.linkedin.com/in/englucianasena/' target='blank'>
-        <img src={linkedin} 
-        className="App-logo" 
-        alt="logo" 
-        height="50"
-        width="50"
-        />
-      </a>
-      
-      </C.Footer>
     </C.Container>
   );
 }

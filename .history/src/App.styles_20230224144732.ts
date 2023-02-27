@@ -29,10 +29,3 @@ export const Logo = styled.div`
     justify-content: center;
     align-items: center;
 `;
-
-export const Footer = styled.div`
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-`;
